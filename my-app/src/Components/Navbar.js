@@ -15,13 +15,17 @@ export const Navbar = (props) => {
             <li>
                 <a href="" className='nav-link'>Explore</a>
             </li>
-            <li>
+            {/* <li>
                 <a href="" className='nav-link'>Sign In</a>
-            </li>
+            </li> */}
             <li>
                 <a href="" className='nav-link'>Write</a>
             </li>
         </ul>
+        <div className='auth'>
+            <a href="" className='nav-link'>Login</a> |
+            <a href="" className='nav-link'>Register</a> 
+        </div>
     </div>
   )
 }

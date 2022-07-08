@@ -9,6 +9,7 @@
     left: 75%;
     position: fixed;
     background-color: rgb(252, 251, 250);
+    border-left: 0.5px solid rgb(220, 220, 220);
 }
 
 .RightComponent {

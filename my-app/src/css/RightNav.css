@@ -1,0 +1,28 @@
+.RightNav{
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+    height: 100%;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 75%;
+    position: fixed;
+    background-color: rgb(240, 247, 234);
+}
+
+.RightComponent {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.SearchForm {
+    padding: 15%;
+}
+.SearchBar {
+    height: 3em;
+    width: 100%;
+}

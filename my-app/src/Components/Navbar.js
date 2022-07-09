@@ -15,9 +15,9 @@ export const Navbar = (props) => {
             <li>
                 <a href="" className='nav-link'>Explore</a>
             </li>
-            {/* <li>
-                <a href="" className='nav-link'>Sign In</a>
-            </li> */}
+            <li>
+                <a href="" className='nav-link'>Random</a>
+            </li>
             <li>
                 <a href="" className='nav-link'>Write</a>
             </li>

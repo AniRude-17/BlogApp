@@ -8,6 +8,7 @@ function App() {
     <>
       <Navbar title="Blog Website"/>
       <Blogprev />
+      <Blogprev />
       <RightNav />
     </>
   );

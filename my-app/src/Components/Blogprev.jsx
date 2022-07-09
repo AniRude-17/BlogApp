@@ -8,8 +8,6 @@ export const Blogprev = () => {
             <div className='blog'>
                 <img className="thumbnail-image" src="http://unsplash.it/250/250?gravity=center"/>
                 <div className='blog-prev-contents'>
-                {/* <h3>
-                    <a href="" className='blog-link'>A Loving Heart is the Truest Wisdom</a></h3> */}
                     <h3 className='head3'>
                         <a href="" className='blog-link'>{title}</a>
                         </h3>

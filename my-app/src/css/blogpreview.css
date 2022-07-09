@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 .prev {
     height: 100%;
     width: 58%;
@@ -35,6 +36,6 @@
     text-transform: uppercase;
     transition: color 0.1s, background-color 0.1s;
     color: black;
-    font-family: "Lora",Arial,serif;
+    font-family: 'Lora', serif;
     font-size:30px;
 }

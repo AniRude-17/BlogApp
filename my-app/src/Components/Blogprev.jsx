@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/blogpreview.css'
+
 export const Blogprev = () => {
     return(
         <div className='prev'>

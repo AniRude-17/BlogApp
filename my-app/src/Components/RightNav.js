@@ -7,8 +7,9 @@ export const RightNav = () => {
         <div className="RightNav">
             <div className='RightComponent'>    
                 <Searchbox />
-                <h3> Tag Cloud</h3>
+                <h3 className='RightNav-headings'> Tag Cloud </h3>
                 <Tagcloud />
+                <h3 className='RightNav-headings'> Categories </h3>'
             </div>
         </div>
     );

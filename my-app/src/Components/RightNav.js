@@ -11,9 +11,6 @@ export const RightNav = () => {
                 <h3 className='RightNav-headings'> Tag Cloud </h3>
                 <Tagcloud />
                 <h3 className='RightNav-headings'> Categories </h3>
-                <div>
-                    <Blogprev />
-                </div>
             </div>
         </div>
     );

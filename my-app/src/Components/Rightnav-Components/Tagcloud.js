@@ -1,6 +1,7 @@
 import React from 'react'
+import '../../css/RightNav.css';
 
-let topTags=["aa", "bb", "CC", "DD", "DD", "DD", "DD", "DD", "DD"];
+let topTags=["Computers","Machine Learning","IIT Indore","Technology","Unique","React","Puzzles"];
 const Tagcloud = () => {
     return ( 
         <div className="tag-cloud-block">
@@ -9,7 +10,7 @@ const Tagcloud = () => {
                     return(
                        
                         <li className="tag-cloud-list-item" key="1">
-                            tag
+                            {tag}
                         </li>
                  
                     )

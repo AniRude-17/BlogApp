@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/blogpreview.css'
+
 let title = "A Loving Heart is the Truest Wisdom"
 let datep = "July 9, 2022"
 export const Blogprev = () => {

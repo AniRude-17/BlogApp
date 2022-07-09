@@ -8,12 +8,11 @@
     bottom: 0;
     /* left: 75%; */
     position: fixed;
-    background-color: rgb(252, 251, 250);
+    background-color: rgb(44, 130, 15);
     border-left: 0.5px solid rgb(220, 220, 220);
 }
 
 .RightComponent {
-    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -21,9 +20,31 @@
 }
 
 .SearchForm {
-    margin:20% -10%;
+    margin:20%;
 }
 .SearchBar {
     height: 2.75em;
     width: 100%;
+}
+
+.RightNav-headings {
+    text-align: left;
+}
+.tag-cloud-block {
+
+}
+
+.tag-cloud-list-style {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 1% 2%;
+}
+
+.tag-cloud-list-item {
+    border: 1px solid black;
+    padding:1%;
+
+    border-radius: 5px;
 }

@@ -10,6 +10,8 @@ export const Blogprev = () => {
                     <a href="" className='blog-link'>A Loving Heart is the Truest Wisdom</a></h3>
                 </div>
             </div>
+            
+            
     )
 };
 

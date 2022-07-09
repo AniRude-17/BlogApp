@@ -10,9 +10,9 @@
     top: 0;
     right: 0;
     bottom: 0;
-    padding: 10px 30px;
-    border-right: 0.5px solid rgb(220, 220, 220);
-    background-color: rgb(9, 12, 99);
+    padding: 1% 3%;
+    border-right: 0.5px solid black;
+    background-color: rgb(252, 251, 250);
     font-size: 22px;
     color: black;
     z-index: 1;

@@ -20,6 +20,8 @@ export const Blogprev = () => {
                     </div>
                 </div>
             </div>
+            
+            
     )
 };
 

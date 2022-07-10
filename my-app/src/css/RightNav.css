@@ -1,15 +1,15 @@
 .RightNav{
-    display: flex;
-    flex-direction: column;
-    width: 25%;
+    /* display: flex;
+    flex-direction: column; */
+    /* width: 25%; */
     height: 100%;
     top:0;
     right: 0;
     bottom: 0;
-    /* left: 75%; */
+    left: 75%;
     position: fixed;
-    background-color: rgb(44, 130, 15);
-    border-left: 0.5px solid rgb(220, 220, 220);
+    background-color: (252, 251, 250);
+    /* border-left: 0.5px solid rgb(220, 220, 220); */
 }
 
 .RightComponent {
@@ -29,9 +29,10 @@
 
 .RightNav-headings {
     text-align: left;
+    margin-left: 5%;
 }
 .tag-cloud-block {
-
+    margin:0 5%;
 }
 
 .tag-cloud-list-style {
@@ -45,6 +46,10 @@
 .tag-cloud-list-item {
     border: 1px solid black;
     padding:1%;
-
+    margin: 1%;
     border-radius: 5px;
+}
+
+.catagories-list-item {
+    list-style: none;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-let catagories=["cat1", "cat2", "cat3", "cat4"];
+let catagories=["Campus Life", "Internships", "Travel", "Food"];
 const Catagories = () => {
     return ( 
         <div className="catagories-block">
@@ -11,6 +11,7 @@ const Catagories = () => {
                        
                         <li className="catagories-list-item" key="1">
                             {item}
+                            <hr />
                         </li>
                  
                     )

@@ -1,0 +1,41 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 26%;
+    width: 49%;
+    /* border: 1px solid red; */
+    align-items: center;
+    /* margin-top: 5%; */
+}
+.blogForm{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 3% 3%;
+    font-size: 20px;
+}
+.formLabel{
+    margin: 2% 0;
+}
+.formInput{
+    border: none;
+    font-size: 18px;
+    border: 0.5px solid grey;
+    /* outline: none; */
+}
+#title{
+    font-size: 24px;
+}
+#btn{
+    width: 10%;
+    background-color: rgb(16, 218, 16);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 5%;
+    padding: 1% 2%;
+}
+#btn:hover{
+    background-color: rgb(12, 156, 12);
+}

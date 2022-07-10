@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../css/NavbarStyle.css'
 export const Navbar = (props) => {
   return (
     <div className="sidenav">
         <div className="logo">
-            <a href="">
+            <Link to="/">
                 <h3>{props.title}</h3>
-            </a>
+            </Link>
         </div>
         <ul className='sidenav-list'>
             <li>
-                <a href="" className='nav-link'>Home</a>
+                <Link to="/" className='nav-link'>Home</Link>
             </li>
             <li>
                 <a href="" className='nav-link'>Explore</a>
@@ -19,7 +20,7 @@ export const Navbar = (props) => {
                 <a href="" className='nav-link'>Random</a>
             </li>
             <li>
-                <a href="" className='nav-link'>Write</a>
+                <Link to="/new-blog" className='nav-link'>Write</Link>
             </li>
         </ul>
         <div className='auth'>

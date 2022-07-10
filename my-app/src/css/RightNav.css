@@ -1,15 +1,15 @@
 .RightNav{
-    display: flex;
-    flex-direction: column;
-    width: 25%;
+    /* display: flex;
+    flex-direction: column; */
+    /* width: 25%; */
     height: 100%;
     top:0;
     right: 0;
     bottom: 0;
-    /* left: 75%; */
+    left: 75%;
     position: fixed;
-    background-color: rgb(44, 130, 15);
-    border-left: 0.5px solid rgb(220, 220, 220);
+    background-color: (252, 251, 250);
+    /* border-left: 0.5px solid rgb(220, 220, 220); */
 }
 
 .RightComponent {
@@ -29,22 +29,42 @@
 
 .RightNav-headings {
     text-align: left;
+    margin-left: 5%;
 }
 .tag-cloud-block {
-
+    margin:0 5%;
 }
 
 .tag-cloud-list-style {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     flex-wrap: wrap;
     list-style: none;
     padding: 1% 2%;
 }
 
 .tag-cloud-list-item {
-    border: 1px solid black;
-    padding:1%;
+    border: 1.75px solid rgb(163, 162, 162);
+    padding:1.5%;
+    margin: 1%;
+    border-radius: 2px;
+    cursor: pointer;
+}
 
-    border-radius: 5px;
+.tag-cloud-list-item:hover {
+    border:1.75px solid rgb(26, 24, 24);
+    transition-delay: 0.15s;
+    background-color: rgb(204, 204, 204);
+}
+
+
+.catagories-list-item {
+    list-style: none;
+    margin-left: 0;
+    margin-right: 20%;
+}
+
+.tag-cloud-links{
+    text-decoration: none;
+    color: rgb(23, 22, 22);
 }

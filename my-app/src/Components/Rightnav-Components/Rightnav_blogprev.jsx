@@ -9,12 +9,12 @@ export const Rightnav_blogprev = (props) => {
             <div className="blog-content-box">{props.content}</div>
             <div className="blog-extrainfo-box">
                 <div className="date-posted-box">
-                    <image className="calander-icon" src="http://unsplash.it/250/250?gravity=center" />
-                    <q className="date">{props.date}</q>
+                    {/* <image className="calander-icon" src="http://unsplash.it/250/250?gravity=center" /> */}
+                    <p className="date">{props.date}</p>
                 </div>
                 <div className="written-by-box">
-                <image className="person-icon" src="http://unsplash.it/250/250?gravity=center" />
-                    <q className="writer">{props.writer}</q>
+                {/* <image className="person-icon" src="http://unsplash.it/250/250?gravity=center" /> */}
+                    <p className="writer">{props.writer}</p>
                 </div>
             </div>
         </div>

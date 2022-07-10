@@ -14,7 +14,7 @@ export const RightNav = () => {
                 <Tagcloud />
                 <h3 className='RightNav-headings'> Categories </h3>
                 <Catagories />        
-                <h3 className='RightNav-headings'> Categories </h3>
+                <h3 className='RightNav-headings'> Popular Articles </h3>
                 <Popart />
             </div>
         </div>

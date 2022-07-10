@@ -13,7 +13,7 @@ export const Rightnav_blogprev = (props) => {
             <div className="blog-extrainfo-box">
                 <div className="date-posted-box">
                     {/* <image className="calander-icon" src="http://unsplash.it/250/250?gravity=center" /> */}
-                    <p className="date">{props.date}</p>
+                    <p className="date">{props.props.date}</p>
                 </div>
                 <div className="written-by-box">
                 {/* <image className="person-icon" src="http://unsplash.it/250/250?gravity=center" /> */}

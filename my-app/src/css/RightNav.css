@@ -48,8 +48,11 @@
     padding:1%;
     margin: 1%;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .catagories-list-item {
     list-style: none;
+    margin-left: 0;
+    margin-right: 20%;
 }

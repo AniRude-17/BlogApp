@@ -37,7 +37,7 @@
 
 .tag-cloud-list-style {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     flex-wrap: wrap;
     list-style: none;
     padding: 1% 2%;
@@ -55,4 +55,9 @@
     list-style: none;
     margin-left: 0;
     margin-right: 20%;
+}
+
+.tag-cloud-links{
+    text-decoration: none;
+    color: rgb(23, 22, 22);
 }

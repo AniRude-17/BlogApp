@@ -9,14 +9,14 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background-color:rgb(252, 251, 250);
+    background-color:white;
     padding-top: 8.5%;
     padding-left:3%;
     padding-right:3%;
     font-size: 22px;
     color: black;
-    z-index: 1;
-    background-color:rgb(167, 94, 21);
+    /* z-index: 1; */
+    /* background-color:rgb(167, 94, 21); */
     grid-template-columns: 1;
 }
 

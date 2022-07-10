@@ -18,13 +18,17 @@ function App() {
       <Switch>
         <Route exact path='/' component={Blogprev}>
         </Route>
-        <Route exact path='/new-blog' component={BlogForm}>
-          
+        <Route exact path='/new-blog' render={()=>{
+          return(
+            <BlogForm/>
+            )
+          }}>
         </Route>
       </Switch>
       <RightNav />
     </Router>
     </>
+ 
   );
 }
 

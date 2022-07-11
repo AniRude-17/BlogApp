@@ -22,6 +22,9 @@ export const Navbar = (props) => {
             <li>
                 <Link to="/new-blog" className='nav-link'>Write</Link>
             </li>
+            <li>
+                <Link to="/user-profile" className='nav-link'>My Profile</Link>
+            </li>
         </ul>
         <div className='auth'>
             <a href="" className='nav-link'>Login</a> |

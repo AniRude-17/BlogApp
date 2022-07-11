@@ -39,7 +39,7 @@ function App() {
         <Route exact path='/profile' render={()=>{
           return(
             <>
-              <BlogForm/>
+              {/* <BlogForm/> */}
               <ProfileRightNav/>  
             </>
           )

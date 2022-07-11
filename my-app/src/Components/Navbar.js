@@ -24,6 +24,7 @@ export const Navbar = (props) => {
             </li>
         </ul>
         <div className='auth'>
+            <Link to='/profile' className='nav-link'>Profile</Link>
             <a href="" className='nav-link'>Login</a> |
             <a href="" className='nav-link'>Register</a> 
         </div>

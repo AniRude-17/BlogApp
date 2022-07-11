@@ -4,6 +4,7 @@ import {Navbar} from './Components/Navbar';
 import {RightNav} from './Components/RightNav';
 import {Blogprev} from './Components/Blogprev';
 import { BlogForm } from './Components/BlogForm';
+import { ProfileRightNav } from './Components/Profile-Page-Components/ProfileRightNav';
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,16 +17,34 @@ function App() {
     <Router>
       <Navbar title="Blog Website"/>
       <Switch>
-        <Route exact path='/' component={Blogprev}>
-        </Route>
-        <Route exact path='/new-blog' render={()=>{
+        <Route exact path='/' render={()=>{
           return(
-            <BlogForm/>
+            <>
+              <Blogprev/>
+              <RightNav />
+            </>
             )
           }}>
         </Route>
+        <Route exact path='/new-blog' render={()=>{
+          return(
+            <>
+              <BlogForm/>
+              <RightNav />
+            </>
+            )
+          }}>
+        </Route>
+        <Route exact path='/profile' render={()=>{
+          return(
+            <>
+              <BlogForm/>
+              <ProfileRightNav/>  
+            </>
+          )
+        }}></Route>
       </Switch>
-      <RightNav />
+      
     </Router>
     </>
  

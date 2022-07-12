@@ -7,7 +7,7 @@ let num = "50";
 export const Blogprev = () => {
   return (
     <div class="prev">
-      <div class="blog">
+      <div class="blog" data-aos="fade-up">
         <img
           className="thumbnail-image"
           src="http://unsplash.it/250/250?gravity=center"
@@ -43,7 +43,7 @@ export const Blogprev = () => {
           </a>
         </div>
       </div>
-      <div class="blog">
+      <div class="blog" data-aos="fade-up">
         <img
           className="thumbnail-image"
           src="http://unsplash.it/250/250?gravity=center"
@@ -79,7 +79,7 @@ export const Blogprev = () => {
           </a>
         </div>
       </div>
-      <div class="blog">
+      <div class="blog" data-aos="fade-up">
         <img
           className="thumbnail-image"
           src="http://unsplash.it/250/250?gravity=center"

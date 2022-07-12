@@ -2,12 +2,12 @@
     /* display: flex;
     flex-direction: column; */
     /* width: 25%; */
-    height: 100vh;
+    height:max-content;
     top:0;
     right: 0;
     bottom: 0;
     left: 75%;
-    position: absolute;
+    position:absolute;
     background-color: rgb(241, 241, 241);
     /* border-left: 0.5px solid rgb(220, 220, 220); */
 }
@@ -33,7 +33,7 @@
     margin-left: 5%;
 }
 .tag-cloud-block {
-    margin:0 5%;
+    margin:0 3%;
 }
 
 .tag-cloud-list-style {
@@ -69,31 +69,31 @@
     text-decoration: none;
     color: rgb(23, 22, 22);
 }
-
+ /* PopArt CSS */
 .Thumbnail-image{
     z-index:1;
-    height:80px;
-    width:80px;
+    height:70px;
+    width:70px;
 }
 .Blogbox {
+    padding: 5%;
+    margin: 5%;
     height: auto;
-    width: 44%;
+    width: 80%;
     display: grid;
     align-items: flex-start;
     position: relative;
-    left: 10%;
     top: 0;
     right: 0;
     bottom: 0;
     background-color:rgb(241, 241, 241);
-    padding-top: 8.5%;
-    padding-left:3%;
-    padding-right:3%;
-    font-size: 22px;
-    color: black;
-    /* z-index: 1; */
-    /* background-color:rgb(167, 94, 21); */
+    font-size: 14px;
+    color: rgb(24, 24, 24);
     grid-template-columns: 1;
+}
+
+.Blogbox:hover {
+    border:  1px solid rgb(25, 25, 25);
 }
 
 

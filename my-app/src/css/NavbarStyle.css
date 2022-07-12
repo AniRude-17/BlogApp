@@ -47,7 +47,9 @@
     transition: color 0.1s, background-color 0.1s;
     color: #000;
 }
-
+.icon{
+    margin-right: 10px;
+}
 .nav-link:hover {
     color: #4dd0e1;
 }

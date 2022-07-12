@@ -11,16 +11,21 @@ export const Navbar = (props) => {
         </div>
         <ul className='sidenav-list'>
             <li>
-                <Link to="/" className='nav-link'>Home</Link>
+                <Link to="/" className='nav-link'>	
+                <i className="fa fa-home icon"></i>Home
+                </Link>
             </li>
             <li>
-                <a href="" className='nav-link'>Explore</a>
+                <a href="" className='nav-link'><i class="fa fa-hashtag icon"></i>Explore</a>
             </li>
             <li>
-                <a href="" className='nav-link'>Random</a>
+                <a href="" className='nav-link'>	
+                <i className="fa fa-random icon"></i>Random</a>
             </li>
             <li>
-                <Link to="/new-blog" className='nav-link'>Write</Link>
+                <Link to="/new-blog" className='nav-link'>	
+                <i class="fa fa-pencil-square-o icon"></i>Write
+                </Link>
             </li>
         </ul>
         <div className='auth'>

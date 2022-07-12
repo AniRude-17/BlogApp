@@ -44,6 +44,7 @@ function App() {
           return(
             <>
               {/* <BlogForm/> */}
+              <UserProfile></UserProfile>
               <ProfileRightNav/>  
             </>
           )

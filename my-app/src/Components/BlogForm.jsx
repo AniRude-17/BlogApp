@@ -1,6 +1,10 @@
 import React from "react";
 import { useState } from "react";
 import '../css/form.css'
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+import MyComponent from "./textedit";
+
 export const BlogForm = () => {
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
@@ -26,19 +30,9 @@ export const BlogForm = () => {
           placeholder="Enter Title"
         />
         <label htmlFor="desc" className="formLabel">Blog Description</label>
-        <textarea
-          name=""
-          className="formInput"
-          id="desc"
-          value={desc}
-          onChange={(e) => {
-            setDesc(e.target.value);
-          }}
-          cols="70"
-          rows="20"
-          placeholder="Enter Description"
-        ></textarea>
+        <MyComponent />
         <button id="btn">Post</button>
+      
       </form>
     </div>
   );

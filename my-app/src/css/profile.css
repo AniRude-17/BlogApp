@@ -23,9 +23,6 @@ hr{
     display: flex;
     flex-direction: row;
 }
-.blog{
-    margin-right: 6%;
-}
 
 /* Link tag css */
 .follow-link {

@@ -13,7 +13,7 @@ export const Popart = () => {
                     
                     <Rightnav_blogprev
                         props={article}
-
+                         
                     />
             
 

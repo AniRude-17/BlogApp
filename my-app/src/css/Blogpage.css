@@ -1,0 +1,36 @@
+/* Right-Nav_bar */
+
+.Rightnav_Box{
+    height:713px;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 75%;
+    position:absolute;
+    background-color: rgb(241, 241, 241);
+}
+
+.Rightnav_Components {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    
+}
+
+
+.BRC_Searchform{
+    margin:20%;
+    
+}
+
+.BRC_SearchBar{
+    height: 2.75em;
+    width: 100%;
+    
+    
+}
+
+
+
+

@@ -76,11 +76,14 @@
     width:70px;
 }
 .Blogbox {
-    padding: 5%;
-    margin: 5%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     height: auto;
     width: 80%;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     align-items: flex-start;
     position: relative;
     top: 0;
@@ -91,10 +94,24 @@
     color: rgb(24, 24, 24);
     grid-template-columns: 1;
 }
+.main-showcase{
+    display:flex;
+    flex-direction: row;
+}
+
 
 .Blogbox:hover {
     border:  1px solid rgb(25, 25, 25);
 }
+.Thumbnail-image{
+    padding-right: 10px;
+}
+.blog-headline-box{
+    width: 250px;
+    overflow: hidden;
+}
+
+
 
 
 /* Profile Right Nav */

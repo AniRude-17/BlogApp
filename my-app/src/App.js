@@ -3,9 +3,9 @@ import './App.css';
 import {Navbar} from './Components/Navbar'; 
 import {RightNav} from './Components/RightNav';
 import {Blogprev} from './Components/Blogprev';
-import { UserProfile } from './Components/Rightnav-Components/UserProfile';
+import { UserProfile } from './Components/ProfilePageComponents/UserProfile';
 import { BlogForm } from './Components/BlogForm';
-import { ProfileRightNav } from './Components/Profile-Page-Components/ProfileRightNav';
+import { ProfileRightNav } from './Components/ProfilePageComponents/ProfileRightNav';
 import {
   BrowserRouter as Router,
   Switch,
@@ -46,7 +46,7 @@ function App() {
             <>
               {/* <BlogForm/> */}
               <UserProfile></UserProfile>
-              <ProfileRightNav/>  
+              <RightNav/>  
             </>
           )
         }}></Route>

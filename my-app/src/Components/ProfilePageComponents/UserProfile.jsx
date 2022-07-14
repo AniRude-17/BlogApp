@@ -14,7 +14,10 @@ export const UserProfile = () => {
 
           <h2 className='Name-style'> {userName}</h2>
         <p className='UserBio'>I am the blog user and The quick brown fox jumps over a lazy dog The quick brown fox jumps over a lazy dog The quick brown fox jumps over a lazy dogThe quick brown fox jumps over a lazy dog </p>
-
+        <div id="follow">
+          <a href="" className='follow-link'>XXX Followers</a>
+          <a href="" className='follow-link'>XXX Following</a>
+        </div>
         <hr/><br/>
         <h4> {userName +'\'s'} Blogs </h4>
         <div className='UserBlogs'>

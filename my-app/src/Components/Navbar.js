@@ -16,7 +16,7 @@ export const Navbar = (props) => {
                 </Link>
             </li>
             <li>
-                <a href="" className='nav-link'><i class="fa fa-hashtag icon"></i>Explore</a>
+                <a href="" className='nav-link'><i class="fa fa-bookmark icon"></i>Bookmarks</a>
             </li>
             <li>
                 <a href="" className='nav-link'>	
@@ -24,8 +24,12 @@ export const Navbar = (props) => {
             </li>
             <li>
                 <Link to="/new-blog" className='nav-link'>	
-                <i class="fa fa-pencil-square-o icon"></i>Write
+                <i class="fa fa-pencil icon"></i>Write
                 </Link>
+            </li>
+            <li>
+                <a href="" className='nav-link'>	
+                <i class="fa fa-cog icon"></i>Manage Account</a>
             </li>
         </ul>
         <div className='auth'>

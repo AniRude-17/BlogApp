@@ -1,9 +1,8 @@
 import React from "react";
-import { useState } from "react";
-import ReactQuill from 'react-quill';
+import ReactQuill, { Quill } from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
-class MyComponent extends React.Component {
+class QuillPanel extends React.Component {
     constructor(props) {
       super(props)
       this.state = { text: '' } // You can also pass a Quill Delta here
@@ -21,4 +20,4 @@ class MyComponent extends React.Component {
       )
     }
   }
-  export default MyComponent;
+  export default QuillPanel;

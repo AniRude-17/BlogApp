@@ -3,7 +3,7 @@ import { useState } from "react";
 import '../css/form.css'
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
-import MyComponent from "./textedit";
+import QuillPanel from "./QuillPanel";
 
 export const BlogForm = () => {
   const [title, setTitle] = useState("");
@@ -30,7 +30,7 @@ export const BlogForm = () => {
           placeholder="Enter Title"
         />
         <label htmlFor="desc" className="formLabel">Blog Description</label>
-        <MyComponent />
+        <QuillPanel />
         <button id="btn">Post</button>
       
       </form>

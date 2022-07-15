@@ -29,20 +29,14 @@
     font-size: 24px;
 }
 #btn{
-    width: 10%;
-    background-color: rgb(16, 218, 16);
+    width: 15%;
+    background-color: rgb(152, 214, 152);
     border: none;
-    border-radius: 8px;
     font-size: 16px;
     margin-top: 5%;
-    padding: 1% 2%;
+    padding: 2%;
 }
 #btn:hover{
-    background-color: rgb(12, 156, 12);
+    background-color: rgb(103, 164, 103);
 }
 
-
-.MyComponent {
-    width: auto;
-    height: 100vh;
-}

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../css/Blogpage.css'
 const Aboutauthor1 = () => {
     return ( 
         <div className="AuthorBox">

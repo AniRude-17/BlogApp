@@ -8,7 +8,6 @@ export const Blogpage_Rightnav = () => {
             <div className="Rightnav_Components">
                 <BRC_Searchbar />
                 <div>
-                    About Author
                     <Aboutauthor1 />
                 </div>
             </div>

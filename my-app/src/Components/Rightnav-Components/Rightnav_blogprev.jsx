@@ -7,18 +7,18 @@ export const Rightnav_blogprev = (props) => {
         <div className="Blogbox">
             
 { /* src={props.thumbnail} : for final development !!  */}
-            <div className="main-showcase">
+            <div className="main-showcase-left">
                 <img className="Thumbnail-image" src="http://unsplash.it/250/250?gravity=center" />
-                <div className="blog-headline-box">{props.props.headline}</div>
             </div>
-            <div className="blog-extrainfo-box">
-                <p className="extrainfo-line">
-                    
-                </p>
+            <div className="main-showcase-right">
+                <div className="blog-title-box">
+                    hello ejkkdwkf,w ,nwjnfwkjdnkfjqn dwjkkw
+                </div>
+                <div className="extra-info-box">
+                    3 June, 2020
+                </div>
             </div>
-            
         </div>
-
             
             
     )

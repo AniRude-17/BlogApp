@@ -1,0 +1,65 @@
+/* Right-Nav_bar */
+.Rightnav_Box{
+    height:713px;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 75%;
+    position:absolute;
+    background-color: rgb(241, 241, 241);
+}
+
+.Rightnav_Components {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    
+}
+.BRC_Searchform_Box{
+    height:150px;
+
+}
+
+
+.BRC_Searchform{
+    margin:20%;
+    
+}
+
+.BRC_SearchBar{
+    height: 2em;
+    width: 100%;    
+}
+
+.ProfileImage{
+    border-radius: 50%;
+    /* border: 1px solid rgb(202, 192, 192); */
+    padding: 5px;
+    width: 95px;
+    margin:10px;
+}
+
+.NameBox{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    padding: 5px;
+    color: rgb(204, 78, 11);
+    font-weight: bold;
+}
+
+.AboutMe{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+
+
+
+
+

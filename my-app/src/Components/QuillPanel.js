@@ -1,23 +1,28 @@
 import React from "react";
-import ReactQuill, { Quill } from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+ import ReactQuill from 'react-quill';
+ import 'react-quill/dist/quill.snow.css';
 
-class QuillPanel extends React.Component {
-    constructor(props) {
-      super(props)
-      this.state = { text: '' } // You can also pass a Quill Delta here
-      this.handleChange = this.handleChange.bind(this)
-    }
-   
-    handleChange(value) {
-      this.setState({ text: value })
-    }
-   
-    render() {
-      return (
-        <ReactQuill value={this.state.text}
-                    onChange={this.handleChange} />
-      )
-    }
+ function QuillPanel() {
+  const modules = {
+    toolbar: [
+      [{ size: [] }],
+      ['bold', 'italic', 'underline'],
+      [
+        { list: 'ordered' },
+        { list: 'bullet' },
+      ],
+      ['link', 'image', 'video'],
+      ['clean'],
+    ],
+    clipboard: {
+      // toggle to add extra line breaks when pasting HTML:
+      matchVisual: false,
+    },
   }
-  export default QuillPanel;
+
+   return (
+     <ReactQuill theme="snow" modules={modules}></ReactQuill>
+   );
+ }
+
+ export default QuillPanel;

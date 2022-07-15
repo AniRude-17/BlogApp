@@ -72,15 +72,18 @@
  /* PopArt CSS */
 .Thumbnail-image{
     z-index:1;
-    height:70px;
-    width:70px;
+    height:80px;
+    width:80px;
 }
 .Blogbox {
-    padding: 5%;
-    margin: 5%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     height: auto;
     width: 80%;
-    display: grid;
+    display: flex;
+    flex-direction: row;
     align-items: flex-start;
     position: relative;
     top: 0;
@@ -92,9 +95,41 @@
     grid-template-columns: 1;
 }
 
+.main-showcase-right{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+}
+
+.blog-title-box{
+    display: block;
+    width:max-width;
+    height: 60px;
+}
+
+.extra-info-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30px;
+}
+
+
+
+
 .Blogbox:hover {
     border:  1px solid rgb(25, 25, 25);
 }
+.Thumbnail-image{
+    padding-right: 10px;
+}
+.blog-headline-box{
+    width: 250px;
+    overflow: hidden;
+}
+
+
 
 
 /* Profile Right Nav */

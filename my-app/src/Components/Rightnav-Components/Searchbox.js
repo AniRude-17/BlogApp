@@ -6,10 +6,10 @@ const Searchbox = () => {
 
     const [input, setInput]=useState("");
 
-const handleSubmit=(event) => {
-    event.preventDefault();
-    console.log(input);
-}
+    const handleSubmit=(event) => {
+        event.preventDefault();
+        console.log(input);
+    }
 
 
     return ( 

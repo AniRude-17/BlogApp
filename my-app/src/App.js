@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Blogpage_Rightnav } from './Components/Blogpage_Rightnav';
 AOS.init();
 function App() {
   
@@ -49,6 +50,20 @@ function App() {
             </>
           )
         }}></Route>
+
+
+
+        <Route exact path='/ReadMore' render={()=>{
+          return(
+            <>
+              <Blogpage_Rightnav />
+            </>
+          )
+        }}></Route>
+
+
+
+        
       </Switch>
       
     </Router>

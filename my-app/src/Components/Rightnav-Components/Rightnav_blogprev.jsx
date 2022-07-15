@@ -12,7 +12,7 @@ export const Rightnav_blogprev = (props) => {
             </div>
             <div className="main-showcase-right">
                 <div className="blog-title-box">
-                    hello ejkkdwkf,w ,nwjnfwkjdnkfjqn dwjkkw
+                    {props.props.headline}
                 </div>
                 <div className="extra-info-box">
                     3 June, 2020

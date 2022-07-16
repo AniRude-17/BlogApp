@@ -50,12 +50,19 @@
     margin: 1%;
     border-radius: 2px;
     cursor: pointer;
+    transform: 0.25s;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .tag-cloud-list-item:hover {
     border:1.75px solid rgb(26, 24, 24);
     transition-delay: 0.15s;
     background-color: rgb(204, 204, 204);
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 

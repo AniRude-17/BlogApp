@@ -11,31 +11,35 @@ export const Navbar = (props) => {
         </div>
         <ul className='sidenav-list'>
             <li>
-                <Link to="/" className='nav-link'>	
+                <Link to="/" className='navLink'>	
                 <i className="fa fa-home icon"></i>Home
                 </Link>
             </li>
             <li>
-                <a href="" className='nav-link'><i class="fa fa-bookmark icon"></i>Bookmarks</a>
+                <a href="" className='navLink'><i class="fa fa-bookmark icon"></i>Bookmarks</a>
             </li>
             <li>
-                <a href="" className='nav-link'>	
+                <a href="" className='navLink'>	
                 <i className="fa fa-random icon"></i>Random</a>
             </li>
             <li>
-                <Link to="/new-blog" className='nav-link'>	
+                <Link to="/new-blog" className='navLink'>	
                 <i class="fa fa-pencil icon"></i>Write
                 </Link>
             </li>
-            <li>
-                <a href="" className='nav-link'>	
-                <i class="fa fa-cog icon"></i>Manage Account</a>
-            </li>
         </ul>
         <div className='auth'>
-            <Link to='/profile' className='nav-link'>Profile</Link>
-            <a href="" className='nav-link'>Login</a> |
-            <a href="" className='nav-link'>Register</a> 
+        <div class="dropup">
+        <button class="dropbtn">Name</button>
+        <div class="dropup-content">
+            <Link to='/profile' className='navLink dropup-link'><i class="fa fa-user icon"></i>Profile</Link>
+            <a href="#" className='navLink dropup-link'><i class="fa fa-cog icon"></i>Settings</a>
+            <a href="#" className='navLink dropup-link'><i class="fa fa-sign-out icon"></i>LogOut</a>
+        </div>
+        {/* <br /> */}
+        </div>
+            <a href="" className='navLink'>Login</a> |
+            <a href="" className='navLink'>Register</a> 
         </div>
     </div>
   )

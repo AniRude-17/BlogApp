@@ -15,7 +15,13 @@ export const Rightnav_blogprev = (props) => {
                     {props.props.headline}
                 </div>
                 <div className="extra-info-box">
-                    3 June, 2020
+                    <span>
+                        <i class="fa fa-user"></i>Jonsdasc j.qsdada Snowjksndkj
+                    </span>
+                    <span>
+                    <i class="fa fa-calendar"></i>3 June, 2020
+                    </span>
+
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ import React from "react";
         { list: 'ordered' },
         { list: 'bullet' },
       ],
-      ['link', 'image', 'video'],
+      ['link', 'image'],
       ['clean'],
     ],
     clipboard: {
@@ -21,7 +21,9 @@ import React from "react";
   }
 
    return (
-     <ReactQuill theme="snow" modules={modules}></ReactQuill>
+    <>
+      <ReactQuill theme="snow" modules={modules}></ReactQuill>
+      </>
    );
  }
 

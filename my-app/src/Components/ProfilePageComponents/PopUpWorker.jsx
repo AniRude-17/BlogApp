@@ -45,7 +45,7 @@ function PopUpWorker ({title,PeopleList}){
 
     return(
         <>
-            <p onClick={setModalIsOpenToTrue} className='follow-link'>Click to Open Modal</p>
+            <p onClick={setModalIsOpenToTrue} className='follow-link'>Followers</p>
 
             <Modal isOpen={modalIsOpen} style={PopUpStyles}>
                 <button onClick={setModalIsOpenToFalse} className='PopupClose'>x</button>

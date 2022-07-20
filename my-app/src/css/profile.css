@@ -73,3 +73,43 @@ hr{
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
 }
+
+
+/* pOPUP STYLES  */
+
+.PopupClose  {
+
+    position: fixed;
+    width:30px;
+    left:70%;
+    top: 7%;
+    
+}
+
+.PopupData {
+    margin: 0;
+    padding:0;
+}
+
+.PopupBox{
+    margin: 0;
+    padding: 0;
+}
+.PopupTitle {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.UserBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.OtherProfilePic {
+    width:12%;
+    height:12%;
+    border-radius: 50%;
+    margin: 5% 5% 0% 5%;
+}

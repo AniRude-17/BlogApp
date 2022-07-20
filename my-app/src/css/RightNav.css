@@ -3,12 +3,16 @@
     flex-direction: column; */
     /* width: 25%; */
     height:max-content;
+    height: 100vh;
     top:0;
     right: 0;
     bottom: 0;
     left: 75%;
-    position:absolute;
+    position:fixed;
     background-color: rgb(241, 241, 241);
+    overflow-y: scroll;
+    
+    
     /* border-left: 0.5px solid rgb(220, 220, 220); */
 }
 

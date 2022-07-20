@@ -32,6 +32,15 @@ function App() {
             )
           }}>
         </Route>
+        <Route exact path='/bookmarks' render={()=>{
+          return(
+            <>
+              <Blogprev/>
+              <RightNav />
+            </>
+            )
+          }}>
+        </Route>
         <Route exact path='/new-blog' render={()=>{
           return(
             <>
@@ -54,6 +63,13 @@ function App() {
 
 
         <Route exact path='/ReadMore' render={()=>{
+          return(
+            <>
+              <Blogpage_Rightnav />
+            </>
+          )
+        }}></Route>
+        <Route exact path='/random' render={()=>{
           return(
             <>
               <Blogpage_Rightnav />

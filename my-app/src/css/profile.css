@@ -86,6 +86,7 @@ hr{
     padding:0.5% 1% 0.5% 1%;
     left:70%;
     top: 6%;
+    cursor:pointer;
     
 }
 .PopupClose:hover {

@@ -16,8 +16,8 @@ export const UserProfile = () => {
           <h2 className='Name-style'> {userName}</h2>
         <p className='UserBio'>I am the blog user and The quick brown fox jumps over a lazy dog The quick brown fox jumps over a lazy dog The quick brown fox jumps over a lazy dogThe quick brown fox jumps over a lazy dog </p>
         <div id="follow">
-        <PopUpWorker />
-        <PopUpWorker />
+        <PopUpWorker Foll={'Following'}/>
+        <PopUpWorker Foll={'Followers'} />
         </div>
         <hr/><br/>
         <h4> {userName +'\'s'} Blogs </h4>

@@ -31,7 +31,7 @@ const PopUpStyles = {
 };
 
 
-function PopUpWorker ({title,PeopleList}){
+function PopUpWorker ({Foll,PeopleList}){
 
     const [modalIsOpen,setModalIsOpen] = useState(false);
 
@@ -45,7 +45,7 @@ function PopUpWorker ({title,PeopleList}){
 
     return(
         <>
-            <p onClick={setModalIsOpenToTrue} className='follow-link'>Followers</p>
+            <p onClick={setModalIsOpenToTrue} className='follow-link'>{ Foll }</p>
 
             <Modal isOpen={modalIsOpen} style={PopUpStyles}>
                 <button onClick={setModalIsOpenToFalse} className='PopupClose'>X</button>

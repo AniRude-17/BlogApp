@@ -4,9 +4,8 @@ import { OtherProfile } from "./OtherProfile";
 const Popup = props => {
   return (
     <div className="PopupBox">
+      <h1 className="PopupTitle"> Followers </h1>
       <div className="PopupData">
-        <h1 className="PopupTitle"> Followers </h1>
-        <span className="PopupClose" onClick={props.handleClose}></span>
         {/* {props.content} */}
         <OtherProfile/ >
         <OtherProfile/ >

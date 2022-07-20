@@ -1,33 +1,35 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import '../css/NavbarStyle.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import "../css/NavbarStyle.css";
 export const Navbar = (props) => {
   return (
     <div className="sidenav">
-        <div className="logo">
-            <Link to="/">
-                <h3>{props.title}</h3>
-            </Link>
-        </div>
-        <ul className='sidenav-list'>
-            <li>
-                <Link to="/" className='navLink'>	
-                <i className="fa fa-home icon"></i>Home
-                </Link>
+      <div className="logo">
+        <Link to="/">
+          <h3>{props.title}</h3>
+        </Link>
+      </div>
+      <ul className="sidenav-list">
+        <li>
+          <Link to="/" className="navLink">
+            <i className="fa fa-home icon"></i>Home
+          </Link>
+        </li>
+        <li>
+          <Link to="/bookmarks" className="navLink">
+            <i class="fa fa-bookmark icon"></i>Bookmarks
+          </Link>
+        </li>
+        <li>
+                <Link to='/random' className='navLink'>	
+                <i className="fa fa-random icon"></i>Random</Link>
             </li>
             <li>
-                <a href="" className='navLink'><i class="fa fa-bookmark icon"></i>Bookmarks</a>
-            </li>
-            <li>
-                <a href="" className='navLink'>	
-                <i className="fa fa-random icon"></i>Random</a>
-            </li>
-            <li>
-                <Link to="/new-blog" className='navLink'>	
-                <i class="fa fa-pencil icon"></i>Write
-                </Link>
-            </li>
-        </ul>
+          <Link to="/new-blog" className="navLink">
+            <i class="fa fa-pencil icon"></i>Write
+          </Link>
+        </li>
+      </ul>
         <div className='auth'>
         <div class="dropup">
         <button class="dropbtn">Name</button>
@@ -42,7 +44,5 @@ export const Navbar = (props) => {
             <a href="" className='navLink'>Register</a> 
         </div>
     </div>
-  )
-}
-
-
+  );
+};

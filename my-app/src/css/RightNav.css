@@ -2,15 +2,36 @@
     /* display: flex;
     flex-direction: column; */
     /* width: 25%; */
-    height:max-content;
+    height:100%;
     top:0;
     right: 0;
     bottom: 0;
     left: 75%;
-    position:absolute;
+    position:fixed;
+    overflow-y:scroll;
     background-color: rgb(241, 241, 241);
     /* border-left: 0.5px solid rgb(220, 220, 220); */
 }
+.RightNav::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  .RightNav::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .RightNav::-webkit-scrollbar-thumb {
+    background: rgb(218, 214, 214); 
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  .RightNav::-webkit-scrollbar-thumb:hover {
+    background: rgb(163, 161, 161); 
+  }
 
 .RightComponent {
     display: flex;

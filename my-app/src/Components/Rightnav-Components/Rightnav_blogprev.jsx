@@ -16,7 +16,7 @@ export const Rightnav_blogprev = (props) => {
                 </div>
                 <div className="extra-info-box">
                     <span>
-                        <i class="fa fa-user"></i>Jonsdasc j.qsdada Snowjksndkj
+                        <i class="fa fa-user"></i>
                     </span>
                     <span>
                     <i class="fa fa-calendar"></i>3 June, 2020

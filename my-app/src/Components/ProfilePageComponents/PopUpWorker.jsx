@@ -49,7 +49,7 @@ function PopUpWorker ({Foll,PeopleList}){
 
             <Modal isOpen={modalIsOpen} style={PopUpStyles}>
                 <button onClick={setModalIsOpenToFalse} className='PopupClose'>X</button>
-                <Popup />
+                <Popup todisplay={Foll} />
             </Modal>
         </>
     )

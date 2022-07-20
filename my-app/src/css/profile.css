@@ -80,10 +80,18 @@ hr{
 .PopupClose  {
 
     position: fixed;
-    width:30px;
+    width: auto;
+    height: auto;
+    border-radius: 2px;
+    padding:0.5% 1% 0.5% 1%;
     left:70%;
-    top: 7%;
+    top: 6%;
     
+}
+.PopupClose:hover {
+    background-color: rgb(186, 29, 8);
+    color: rgb(233, 234, 236);
+    font-weight: 700;
 }
 
 .PopupData {

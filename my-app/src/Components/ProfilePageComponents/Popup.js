@@ -1,12 +1,12 @@
 import React from "react";
 import { OtherProfile } from "./OtherProfile";
 
-const Popup = props => {
+function Popup({todisplay}) {
   return (
+    <>
+    <h1 className="PopupTitle"> {todisplay} </h1>
     <div className="PopupBox">
       <div className="PopupData">
-        <h1 className="PopupTitle"> Followers </h1>
-        <span className="PopupClose" onClick={props.handleClose}></span>
         {/* {props.content} */}
         <OtherProfile/ >
         <OtherProfile/ >
@@ -26,6 +26,7 @@ const Popup = props => {
       
       </div>
     </div>
+    </>
   );
 };
 

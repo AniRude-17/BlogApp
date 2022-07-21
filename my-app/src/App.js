@@ -15,6 +15,7 @@ import {
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Blogpage_Rightnav } from './Components/Blogpage_Rightnav';
+import { Blogpage_contents } from './Components/Blogpage_contents';
 AOS.init();
 function App() {
   
@@ -72,6 +73,7 @@ function App() {
         <Route exact path='/random' render={()=>{
           return(
             <>
+              <Blogpage_contents />
               <Blogpage_Rightnav />
             </>
           )

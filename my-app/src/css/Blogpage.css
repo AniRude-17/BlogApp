@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/');
 /* Right-Nav_bar */
 .Rightnav_Box{
     height:713px;
@@ -57,9 +58,111 @@
     margin-top: 2px;
     padding: 5px;
 }
+/* Contents */
+.profile_img{
+    margin-right: 0.75rem;
+    display: block;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
 
+.header{
+    display:flex;
+    width:100%;
+}
 
+.contents{
+    height: auto;
+    width: 44%;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: 25%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:white;
+    padding-top: 3rem!important;
+    padding-left:3%;
+    padding-right:3%;
+    font-size: 22px;
+    color: black;
+    grid-template-columns: 1;
+}
 
+.struct{
+    display: block;
+    position: relative;
+    float: left;
+    align-items: flex-start;
+    word-wrap: normal;
+    font-size: 12px;
+    color: black;
+    margin-right: 0;
+    margin-bottom: 3rem;
+    padding-top:1.5rem;
+    width:100%;
+}
 
+.profile_link{
+    text-decoration: none;
+    position: relative;
+    word-wrap: normal;
+    display: block;
+    text-transform: uppercase;
+    transition: color 0.1s, background-color 0.1s;
+    color: black;
+    font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 16px;
+    margin-top: 0;
+}
 
+.profile_contents{
+    display: flex;
+}
 
+.material-icon {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  .bookmark-icon{
+    text-align: right;
+    width:100%;
+    text-decoration: none;
+    color:black;
+  }
+
+  .blog-title{
+    font-size:40px;
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-bottom: 1.5rem;
+  }
+
+  .blog{
+    display: block;
+  }
+
+  .blog-contents{
+    font-size:20px;
+  }

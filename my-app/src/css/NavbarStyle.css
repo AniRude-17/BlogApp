@@ -15,7 +15,7 @@
     background-color: rgb(241, 241, 241);
     font-size: 22px;
     color: black;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .logo {

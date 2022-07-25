@@ -140,3 +140,11 @@ hr{
     background-color: rgb(123, 184, 24);
     cursor: pointer;
 }
+
+
+/* LOGIN FORM STYLES  */
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}

@@ -1,9 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../css/NavbarStyle.css";
+import PopUpWorkerLogin from "../Components/Auth/PopupWorkerLogin";
+import PopUpWorkerRegister from "../Components/Auth/PopUpWorkerRegister";
+
 export const Navbar = (props) => {
   return (
     <div className="sidenav">
+      <PopUpWorkerLogin />
+      <PopUpWorkerRegister />
       <div className="logo">
         <Link to="/">
           <h3>{props.title}</h3>

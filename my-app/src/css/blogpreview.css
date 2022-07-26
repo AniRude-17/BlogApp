@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 .prev {
-    height: auto;
-    width: 44%;
+    height: 100%;
+    width: 43%;
     display: grid;
     align-items: flex-start;
     position: relative;
-    left: 25%;
+    left: 26%;
     top: 0;
     right: 0;
     bottom: 0;

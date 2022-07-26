@@ -1,7 +1,7 @@
 import React from 'react'
 import "../css/Blogpage.css"
 
-let props=[{img:"http://unsplash.it/250/250?gravity=center", uname:"Haxxor",time:8, svg:"http://unsplash.it/700/300?gravity=center",datep:"21 Oct,2020", title:"A Loving Heart is the Truest Wisdom",contents:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia."}]
+let props=[{img:"http://unsplash.it/250/250?gravity=center", uname:"Andrea Moore",time:8, svg:"http://unsplash.it/650/300?gravity=center",datep:"21 Oct,2020", title:"A Loving Heart is the Truest Wisdom",contents:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia."}]
 export const Blogpage_contents = () => {
   return (
     <div class="contents">
@@ -37,7 +37,7 @@ export const Blogpage_contents = () => {
                         <span class="material-icon">&#xe598;</span>
                       </a>
                     </div>
-                    <div class="blog">
+                    <div class="blogbox">
                     <div class="blog-title">
                         {contents.title}
                     </div>

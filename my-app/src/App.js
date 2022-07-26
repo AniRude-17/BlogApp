@@ -67,6 +67,7 @@ function App() {
           return(
             <>
               <Blogpage_Rightnav />
+              <Blogpage_contents />
             </>
           )
         }}></Route>
